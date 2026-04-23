@@ -1,0 +1,55 @@
+# EPI Detector
+
+> Neste projeto usamos como forma de benchmark um modelo pré-treinado de detecção de EPI em canteiros de obras.
+
+![badge-versão](https://img.shields.io/badge/version-1.0.0-blue)
+![badge-licença](https://img.shields.io/badge/license-MIT-green)
+
+![screenshot ou demo](./docs/demo.gif)
+
+## Sobre o modelo
+
+O modelo em questão está disponível no Hugghing Face na seguinte URL: 
+
+## Instalação
+
+\`\`\`bash
+git clone https://github.com/seu-usuario/projeto.git
+cd projeto
+npm install
+\`\`\`
+
+## ⚙️ Configuração
+
+Crie um arquivo `.env` na raiz com as seguintes variáveis:
+
+\`\`\`env
+DATABASE_URL=
+API_KEY=
+PORT=3000
+\`\`\`
+
+## 📖 Como usar
+
+\`\`\`bash
+npm start
+\`\`\`
+
+\`\`\`js
+// Exemplo de uso da lib
+import { minhaFuncao } from 'projeto'
+
+minhaFuncao({ opcao: true })
+\`\`\`
+
+## 🤝 Contribuindo
+
+1. Fork o projeto
+2. Crie sua branch: `git checkout -b feat/minha-feature`
+3. Commit suas mudanças: `git commit -m 'feat: adiciona minha feature'`
+4. Push: `git push origin feat/minha-feature`
+5. Abra um Pull Request
+
+## 📄 Licença
+
+MIT © [Seu Nome](https://github.com/seu-usuario)
