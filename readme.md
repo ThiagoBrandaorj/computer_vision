@@ -11,15 +11,14 @@
 
 ## 🦺 Sobre o modelo
 
-O modelo pré treinado em uso está disponível no Hugghing Face na seguinte URL: https://huggingface.co/Hansung-Cho/yolov8-ppe-detection. O modelo é baseado no YOLOv8 e sofreu um fine-tunning pelo autor para detectar as seguintes classes em um canteiro de obras: Hardhat,Mask,NO-Hardhat,NO-Mask,NO-Safety
+> O modelo pré treinado em uso está disponível no Hugghing Face na seguinte URL: https://huggingface.co/Hansung-Cho/yolov8-ppe-detection. O modelo é baseado no YOLOv8 e sofreu um fine-tunning pelo autor para detectar as seguintes classes em um canteiro de obras: Hardhat,Mask,NO-Hardhat,NO-Mask,NO-Safety
 Vest,Person,Safety Cone,Safety Vest,machinery,vehicle. Porém em nosso contexto usaremos apenas as classes Hardhat,NO-Hardhat,NO-Safety Vest,Person,Safety Vest
 
 ## 🧪 Treinamento e métricas do modelo
 
-O modelo foi treinado em conjuntos de dados públicos relacionados a EPI e construção. O resultado de cada inferência do modelo além do rótulo de classe é também a caixa delimitadora do rótulo, determinando onde o modelo está detectando o rótulo destacado. A performance segue na seguinte matriz confusão:
-![screenshot ou demo](confusion_matrix.png)
+> O modelo foi treinado em conjuntos de dados públicos relacionados a EPI e construção. O resultado de cada inferência do modelo além do rótulo de classe é também a caixa delimitadora do rótulo, determinando onde o modelo está detectando o rótulo destacado. A performance segue na seguinte matriz confusão:
+![screenshot ou demo](confusion_matrix.png)Com base na matriz de confusão do modelo podemos obter as seguintes métricas do modelo:
 
-Com base na matriz de confusão do modelo podemos obter as seguintes métricas do modelo:
 | Classe | TP | FP | FN | Precision | Recall |
 |---|---|---|---|---|---|
 | Hardhat | 57 | 10 | 22 | 85,07% | 72,15% |
@@ -30,13 +29,13 @@ Com base na matriz de confusão do modelo podemos obter as seguintes métricas d
 
 ## ⚙️ Uso
 
-Usamos o modelo como forma de teste em algumas imagens, dessas imagens algumas foram obtidas da web e outras foram fotos distantes obtidas de um canteiro de obras com uma câmera semi profissional. As imagens estão na pasta "fotos_teste" e os resultados da classificação do modelo, ou seja, as fotos originais classificadas e com as caixas delimitadoras de objeto estão disponíveis na pasta "classified_images".  
+> Usamos o modelo como forma de teste em algumas imagens, dessas imagens algumas foram obtidas da web e outras foram fotos distantes obtidas de um canteiro de obras com uma câmera semi profissional. As imagens estão na pasta "fotos_teste" e os resultados da classificação do modelo, ou seja, as fotos originais classificadas e com as caixas delimitadoras de objeto estão disponíveis na pasta "classified_images".  
 
 ## 🚫 Limitações
 
-Segundo o autor o modelo tem algumas limitações como viés de domínio,oclusão e fotos com baixa resolução.Limitações essas que foram percebidas princiapalmente nas fotos distantes dos objetos.
+> Segundo o autor o modelo tem algumas limitações como viés de domínio,oclusão e fotos com baixa resolução.Limitações essas que foram percebidas princiapalmente nas fotos distantes dos objetos.
 
 ## 📚 Citação
 
-Cho, Hansung. “YOLOv8 PPE Detection – End-to-End AI System for Safety Monitoring.”
+> Cho, Hansung. “YOLOv8 PPE Detection – End-to-End AI System for Safety Monitoring.”
 Hugging Face Model Hub, 2025.
