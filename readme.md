@@ -2,11 +2,11 @@
 
 > Neste projeto usamos como forma de benchmark um modelo pré-treinado de detecção de EPI em canteiros de obras proposto por Hansung-Cho, o projeto no longo prazo visa desenvolver um modelo superior ao protopipo pré treinado usado.
 
-![badge-versão](https://img.shields.io/badge/version-1.0.0-blue)
-![badge-licença](https://img.shields.io/badge/license-MIT-green)
-![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
-![Ultralytics](https://img.shields.io/badge/Ultralytics-YOLOv8-00FFFF)
-![TensorFlow 2.x](https://img.shields.io/badge/TensorFlow-2.x-brightgreen)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue?style=flat-square)](.)
+[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](.)
+[![Python](https://img.shields.io/badge/python-3.8+-blue?style=flat-square&logo=python&logoColor=white)](.)
+[![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-00FFFF?style=flat-square)](.)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)](.)
 ![screenshot ou demo](classified_images/classified_imagem_web_4.jpg)
 
 ## 🦺 Sobre o modelo
