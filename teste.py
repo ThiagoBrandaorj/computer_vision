@@ -13,7 +13,7 @@ print("Todos os rótulos disponíveis no modelo:")
 print("-" * 40)
 for id_classe, nome_classe in model.names.items():
     print(f"ID {id_classe}: {nome_classe}")
-    
+
 # Método 2: Como dicionário
 classes_dict = model.names
 print(f"\nTotal de classes: {len(classes_dict)}")
